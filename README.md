@@ -56,3 +56,25 @@ La API dispone de 5 paths, que se corresponden con las operaciones CRUD:
 
 - Una llamada DELETE al path `/user/:id` permite borrar un empleado de la base de datos (aquel cuyo "id" sea igual al valor que se coloque en el path param `:id` del path)
 
+## Objetivo:
+
+Con ayuda de esta API, vais a tener que hacer una web que permita controlar el registro de los empleados. Vuestra web debe tener el siguiente aspecto:
+
+<img src="Captura.PNG">
+
+En cada fila se muestra la información de cada empleado. En cada fila hay también 3 botones:
+
+- El botón de lupa deberá mostrar un modal con la información solamente de ese empleado.
+
+- El botón del lápiz deberá mostrar un modal con un formulario, en donde se podrá editar la información del empleado.
+
+<img src="Captura3.PNG">
+
+- El botón de la papelera deberá hacer una llamada DELETE a la API para borrar ese empleado.
+
+Cuando se haga click en el botón "Add new employee" deberá desplegarse un modal con un formulario como éste:
+
+<img src="Captura2.PNG">
+
+Al hacerse click sobre el botón "Save" se debe hacer una llamada POST al endpoint para que se guarde este nuevo empleado.
+
